@@ -1,0 +1,78 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.parent {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    gap: 155px;
+}
+
+.super {
+    display: flex;
+    place-items: center;
+    gap: 10px;
+}
+
+img {
+    width: 4rem;
+}
+
+svg {
+    margin-bottom: -4px;
+}
+
+.f {
+    width: fit-content;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.g {
+    transform: rotate(180deg);
+}
+
+.super2 {
+    display: flex;
+    gap: 10px;
+    place-items: center;
+
+}
+
+.h svg {
+    margin-top: -5px;
+}
+
+#button1 {
+    background-color: #17b978;
+    border: 1px solid #17b978;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    z-index: 1;
+    margin-right: -30px;
+}
+
+.button2 {
+    width: 100px;
+    height: 30px;
+    background-color: #c7ffd8;
+    border: 1px solid #c7ffd8;
+    border-radius: 30px;
+    z-index: -1;
+}
+
+.super3 {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    background-color: black;
+    padding-left: 5px;
+    color: white;
+    place-items: center;
+    gap: 20px;
+}
